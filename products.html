@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Products - Toy Haven</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+
+        <nav>
+
+            <a href="index.html">
+                <img src="logo.jpg" alt="Toy Haven logo" class="logo">
+            </a>
+
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="cart.html">Cart</a></li>
+                <li><a href="checkout.html">Checkout</a></li>
+                <li><a href="wishlist.html">Wishlist</a></li>
+                <li><a href="feedback.html">Feedback</a></li>
+            </ul>
+
+        </nav>
+
+    </header>
+
+    <main>
+
+        
+
+        <section class="products-page">
+            <h1>Our Toys</h1>
+
+            <p>Explore our collection of fun and exciting toys</p>
+
+<div class="product-filters">
+    <button data-category="All">All</button>
+    <button data-category="Collectible Figurines">Collectible Figurines</button>
+    <button data-category="Toys">Toys</button>
+    <button data-category="Board Games">Board Games</button>
+    <button data-category="Diecast Model Cars">Diecast Model Cars</button>
+</div>
+
+<input type="text" id="product-search" placeholder="Search products...">
+
+<div class="products-grid" id="products-grid"></div>
+
+        </section>
+
+
+
+    </main>
+
+    <div id="product-modal" class="product-modal">
+    <div class="modal-content">
+        <button id="close-modal" class="close-modal">&times;</button>
+        <div id="modal-product"></div>
+    </div>
+</div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>

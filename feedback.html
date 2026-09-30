@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Feedback & Support | Toy Haven</title>
+
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+
+    <link rel="icon" type="image/png" href="favicon.png">
+
+    
+    <link rel="manifest" href="manifest.json">
+
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="feedback-page-body">
+        
+    <header class="site-header">
+        <div class="logo-container">
+            <img src="logo.jpg" alt="Toy Haven Logo" class="logo">
+        </div>
+
+        <nav class="main-nav">
+            <a href="index.html">Home</a>
+            <a href="products.html">Products</a>
+            <a href="cart.html">Cart</a>
+            <a href="checkout.html">Checkout</a>
+            <a href="wishlist.html">Wishlist</a>
+            <a href="feedback.html">Feedback & Support</a>
+        </nav>
+    </header>
+
+
+    
+    <main class="feedback-page">
+
+        
+        <section class="feedback-intro">
+            <p class="section-label">WE'D LOVE TO HEAR FROM YOU</p>
+
+            <h1>Feedback & Support</h1>
+
+            <p>
+                Have a question, suggestion, or feedback about Toy Haven?
+                Send us a message and our support team will be happy to help.
+            </p>
+        </section>
+
+
+        
+        <section class="feedback-container">
+
+            
+            <div class="feedback-form-box">
+
+                <h2>Send Us Your Feedback</h2>
+
+                <form id="feedback-form">
+
+                    <div class="form-group">
+                        <label for="feedback-name">Full Name</label>
+                        <input
+                            type="text"
+                            id="feedback-name"
+                            name="name"
+                            placeholder="Enter your name"
+                            required
+                        >
+                    </div>
+
+                    <div class="form-group">
+                        <label for="feedback-email">Email Address</label>
+                        <input
+                            type="email"
+                            id="feedback-email"
+                            name="email"
+                            placeholder="Enter your email"
+                            required
+                        >
+                    </div>
+
+                    <div class="form-group">
+                        <label for="feedback-rating">Rating</label>
+
+                        <select id="feedback-rating" name="rating" required>
+                            <option value="">Select a rating</option>
+                            <option value="5">★★★★★ - Excellent</option>
+                            <option value="4">★★★★ - Very Good</option>
+                            <option value="3">★★★ - Good</option>
+                            <option value="2">★★ - Needs Improvement</option>
+                            <option value="1">★ - Poor</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="feedback-message">Your Feedback</label>
+
+                        <textarea
+                            id="feedback-message"
+                            name="message"
+                            rows="6"
+                            placeholder="Write your feedback here..."
+                            required
+                        ></textarea>
+                    </div>
+
+                    <button type="submit" class="feedback-submit-button">
+                        Submit Feedback
+                    </button>
+
+                </form>
+            </div>
+
+
+            
+            <div class="support-box">
+
+                <h2>Need Help?</h2>
+
+                <p>
+                    If you need assistance with an order, product, delivery,
+                    or anything else, you can contact our support team.
+                </p>
+
+                <div class="support-item">
+                    <h3>📧 Email Support</h3>
+                    <p>support@toyhaven.com</p>
+                </div>
+
+                <div class="support-item">
+                    <h3>📞 Phone Support</h3>
+                    <p>+94 71 234 5678</p>
+                </div>
+
+                <div class="support-item">
+                    <h3>🕒 Support Hours</h3>
+                    <p>Monday – Saturday<br>9:00 AM – 6:00 PM</p>
+                </div>
+
+            </div>
+
+        </section>
+
+
+        
+        <section class="faq-section">
+
+            <div class="faq-heading">
+                <p class="section-label">COMMON QUESTIONS</p>
+
+                <h2>Frequently Asked Questions</h2>
+
+                <p>
+                    Find quick answers to some common questions about Toy Haven.
+                </p>
+            </div>
+
+
+            <div class="faq-container">
+
+                <div class="faq-item">
+                    <button class="faq-question" type="button">
+                        How can I place an order?
+                        <span>+</span>
+                    </button>
+
+                    <div class="faq-answer">
+                        <p>
+                            Browse our products, add your favourite items to the
+                            cart, and continue to checkout to place your order.
+                        </p>
+                    </div>
+                </div>
+
+
+                <div class="faq-item">
+                    <button class="faq-question" type="button">
+                        Can I save products for later?
+                        <span>+</span>
+                    </button>
+
+                    <div class="faq-answer">
+                        <p>
+                            Yes. You can add products to your wishlist and view
+                            them later from the Wishlist page.
+                        </p>
+                    </div>
+                </div>
+
+
+                <div class="faq-item">
+                    <button class="faq-question" type="button">
+                        What payment methods are available?
+                        <span>+</span>
+                    </button>
+
+                    <div class="faq-answer">
+                        <p>
+                            Toy Haven supports card payments and cash on delivery.
+                        </p>
+                    </div>
+                </div>
+
+
+                <div class="faq-item">
+                    <button class="faq-question" type="button">
+                        How can I contact customer support?
+                        <span>+</span>
+                    </button>
+
+                    <div class="faq-answer">
+                        <p>
+                            You can contact our support team using the email or
+                            phone number provided above.
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- Footer -->
+    <footer class="site-footer">
+
+        <div class="footer-content">
+
+            <div>
+                <h2>Toy Haven</h2>
+                <p>
+                    Collect • Play • Discover
+                </p>
+            </div>
+
+            <div class="newsletter">
+                <h3>Join Our Newsletter</h3>
+
+                <form id="newsletter-form">
+                    <input
+                        type="email"
+                        id="newsletter-email"
+                        placeholder="Enter your email"
+                        required
+                    >
+
+                    <button type="submit">
+                        Subscribe
+                    </button>
+                </form>
+            </div>
+
+        </div>
+
+        <p class="copyright">
+            © 2026 Toy Haven. All rights reserved.
+        </p>
+
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+
+</body>
+</html>

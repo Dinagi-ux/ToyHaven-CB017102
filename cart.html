@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Cart - Toy Haven</title>
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="favicon.png">
+
+    <!-- PWA -->
+    <link rel="manifest" href="manifest.json">
+</head>
+
+<body>
+
+
+    <header>
+
+        <nav>
+
+            <!-- Logo -->
+            <a href="index.html">
+                <img src="logo.jpg" alt="Toy Haven logo" class="logo">
+            </a>
+
+            <!-- Navigation -->
+            <ul class="nav-links">
+
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+
+                <li>
+                    <a href="products.html">Products</a>
+                </li>
+
+                <li>
+                    <a href="cart.html">Cart</a>
+                </li>
+
+                <li>
+                    <a href="checkout.html">Checkout</a>
+                </li>
+
+                <li>
+                    <a href="wishlist.html">Wishlist</a>
+                </li>
+
+                <li>
+                    <a href="feedback.html">Feedback</a>
+                </li>
+
+            </ul>
+
+        </nav>
+
+    </header>
+
+
+    
+
+    <main>
+
+        <section class="cart-page">
+
+            
+
+            <div class="section-heading">
+
+                <p class="section-label">YOUR SHOPPING CART</p>
+
+                <h1>Shopping Cart</h1>
+
+                <p>
+                    Review your selected products before checkout.
+                </p>
+
+            </div>
+
+
+            <div class="cart-container">
+
+                <!-- Cart items -->
+
+                <div class="cart-items">
+
+                    <!-- Cart item 1 -->
+
+                    <article class="cart-item">
+
+                        <img
+                            src="toy1.jpg"
+                            alt="Building Blocks"
+                        >
+
+                        <div class="cart-item-info">
+
+                            <p class="product-category">
+                                Toys
+                            </p>
+
+                            <h2>Building Blocks</h2>
+
+                            <p class="cart-price">
+                                Rs. 2,500
+                            </p>
+
+                            <div class="quantity-control">
+
+                                <button type="button">
+                                    -
+                                </button>
+
+                                <span>1</span>
+
+                                <button type="button">
+                                    +
+                                </button>
+
+                            </div>
+
+                        </div>
+
+                        <button
+                            type="button"
+                            class="remove-button">
+                            Remove
+                        </button>
+
+                    </article>
+
+
+                    
+
+                    <article class="cart-item">
+
+                        <img
+                            src="toy2.jpg"
+                            alt="Racing Car"
+                        >
+
+                        <div class="cart-item-info">
+
+                            <p class="product-category">
+                                Diecast Model Cars
+                    
+                                <h2>Racing Car</h2>
+
+<div class="cart-items" id="cart-items">
+</<div class="cart-items" id="cart-items"></div>
+
+<div class="cart-summary">
+    <h2>Cart Summary</h2>
+
+    <p>Subtotal: <span id="cart-subtotal">Rs. 0</span></p>
+    <p>Delivery: <span id="cart-delivery">Rs. 0</span></p>
+    <h3>Total: <span id="cart-total">Rs. 0</span></h3>
+
+    <button id="clear-cart">Clear Cart</button>
+    <a href="checkout.html" class="primary-button">Proceed to Checkout</a>
+</div>
+
+</div>
+
+        </section>
+
+    </main>
+
+
+
+    <footer>
+
+        <div class="footer-content">
+
+            <div>
+
+                <h3>Toy Haven</h3>
+
+                <p>
+                    Collect. Play. Discover.
+                </p>
+
+            </div>
+
+
+            <div class="newsletter">
+
+                <h3>Stay Updated</h3>
+
+                <p>
+                    Subscribe for new products and promotions.
+                </p>
+
+                <form id="newsletter-form">
+
+                    <input
+                        type="email"
+                        placeholder="Enter your email"
+                        required
+                    >
+
+                    <button type="submit">
+                        Subscribe
+                    </button>
+
+                </form>
+
+            </div>
+
+        </div>
+
+
+        <p class="copyright">
+            &copy; 2026 Toy Haven. All rights reserved.
+        </p>
+
+    </footer>
+
+
+    
+    <script src="script.js"></script>
+
+</body>
+
+</html>
